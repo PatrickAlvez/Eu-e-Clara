@@ -1,0 +1,32 @@
+.container {
+    height: 82.6vh;
+}
+
+.card {
+    margin: 30px auto;
+    width: 80%;
+    height: 400px;
+    border-radius: 30px;
+    background: var(--cor-secundaria);
+    box-shadow: 15px 15px 30px #ecafaf,
+               -15px -15px 30px #f3a7c7;
+}
+
+.card__conteudo {
+    padding: 5% 10%; 
+    text-align: center;
+}
+
+.card__titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__texto {
+    color: var(--cor-terciaria);
+}
+
+.card__imagem {
+    height: 180px;
+    width: 180px;
+}

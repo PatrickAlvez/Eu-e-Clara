@@ -1,0 +1,40 @@
+.cabecalho {
+    background: url(../assets/header.png);
+    font-size: 20px;
+}
+
+.cabecalho__menu {
+    display: flex;
+    margin: auto 20px;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 0.5rem;
+}
+
+.cabecalho__menu__lista {
+    display: flex;
+    padding: 1.2em 0;
+    gap: 1rem;
+}
+
+.lista__links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 0.3rem;
+    text-decoration: none;
+    align-items: center;
+    color: var(--cor-quarternaria);
+}
+
+.link-imagem {
+    height: 20px;
+    width: 20px;
+}

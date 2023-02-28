@@ -1,0 +1,32 @@
+@import url("styles/header.css");
+@import url("styles/conteudo.css");
+@import url("styles/livro.css");
+@import url("styles/pedido.css");
+
+:root {
+    --cor-primaria: #FFF1E9;
+    --cor-secundaria: #FFD5D5;
+    --cor-terciaria: #fd6fa8;
+    --cor-quarternaria: #45454D;
+    --preto: #000000;
+    --fonte-principal: "Poppins";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-quarternaria);
+    font-size: 16px;
+    height: 100vw;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.rodape {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    background-color: var(--cor-terciaria);
+}
