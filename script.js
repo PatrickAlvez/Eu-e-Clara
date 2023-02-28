@@ -15,5 +15,5 @@ btn.style.transition = "all 0.3s ease";
 });
 
 function tanks() {
-alert("Obrigado poor aceitar me aturar por mais 1 ano, te amo S2");
+alert("Obrigado por aceitar me aturar por mais 1 ano, EU TE AMOOO S2");
 }    

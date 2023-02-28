@@ -36,8 +36,12 @@ section {
     padding: 5px;
     text-transform: uppercase;
 }
+
+.pedido {
+    text-align: center;
+}
     
-h1 {
+.pedido__titulo {
     color:var(--cor-quarternaria);
     font-size: 1.5rem;
 }
